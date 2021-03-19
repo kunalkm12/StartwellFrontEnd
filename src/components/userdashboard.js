@@ -48,16 +48,16 @@ function UserDashboard()
                             <Menu.Item key="5">Delete Account</Menu.Item>
                         </SubMenu>
                         <SubMenu key="sub2" title={<span><SmileOutlined/>Goals and Progress</span>}>
-                            <Menu.Item key="5">Goal1</Menu.Item>
-                            <Menu.Item key="6">Goal2</Menu.Item>
-                            <Menu.Item key="7">Goal3</Menu.Item>
-                            <Menu.Item key="8">Goal4</Menu.Item>
+                            <Menu.Item key="6">Goal1</Menu.Item>
+                            <Menu.Item key="7">Goal2</Menu.Item>
+                            <Menu.Item key="8">Goal3</Menu.Item>
+                            <Menu.Item key="9">Goal4</Menu.Item>
                         </SubMenu>
                         <SubMenu key="sub3" title={<span><SmileOutlined/>subnav 3</span>}>
-                            <Menu.Item key="9">option9</Menu.Item>
-                            <Menu.Item key="10">option10</Menu.Item>
-                            <Menu.Item key="11">option11</Menu.Item>
-                            <Menu.Item key="12">option12</Menu.Item>
+                            <Menu.Item key="10">option9</Menu.Item>
+                            <Menu.Item key="11">option10</Menu.Item>
+                            <Menu.Item key="12">option11</Menu.Item>
+                            <Menu.Item key="13">option12</Menu.Item>
                         </SubMenu>
 
                     </Menu>
