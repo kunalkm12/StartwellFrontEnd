@@ -10,6 +10,7 @@ import Profile from "./components/profile.component";
 import Home  from './components/home.component';
 import Newsletter from "./components/Newsletter.component";
 import userdashboard from "./components/userdashboard";
+import about from "./components/About";
 
 import 'antd/dist/antd.css';
 
@@ -71,7 +72,7 @@ class App extends Component {
         {currentUser ? (
         <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
           <Menu.Item key="1" style={{float:"right"}} onClick={this.logOut}><Link to={"/login"} > Logout</Link></Menu.Item>  
-          <Menu.Item key="2" style={{float:"right"}}>About</Menu.Item>
+          <Menu.Item key="2" style={{float:"right"}}><Link to={"/about"} >about</Link></Menu.Item>
           <Menu.Item key="3" style={{float:"right"}}>Contact Us</Menu.Item>
           <Menu.Item key="4" style={{float:"right"}}><Link to={"/Newsletter"} >Newsletter</Link></Menu.Item>
           <Menu.Item key="5" style={{float:"right"}}><Link to={"/home"} >Home</Link></Menu.Item>
